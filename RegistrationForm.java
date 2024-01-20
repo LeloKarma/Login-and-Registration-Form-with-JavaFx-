@@ -117,7 +117,7 @@ public class RegistrationForm  extends Application{
 			  PreparedStatement prepareStatement = conn.prepareStatement(sql);
 			  prepareStatement.setString(1,  username);
 			  prepareStatement.setString(2, email);
-			  prepareStatement.setString(3, email);
+			  prepareStatement.setString(3, password);
 			  
 			  int rowsAffected = prepareStatement.executeUpdate();
 			  return rowsAffected > 0;
