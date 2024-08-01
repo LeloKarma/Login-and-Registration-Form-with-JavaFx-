@@ -8,6 +8,7 @@ This is a simple JavaFX application that implements a registration form. It allo
 
 - Java Development Kit (JDK) installed
 - MySQL database server installed and running
+- 
 - MySQL Connector/J library added to the project's classpath
 
 ## Getting Started
